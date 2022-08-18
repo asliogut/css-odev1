@@ -1,0 +1,41 @@
+body {
+    font-family: 'Caladea', serif;
+
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(250, 194, 171);
+}
+
+h1{
+    color: rgb(90, 0, 90);
+}
+
+.links{
+    display: inline-block;
+    margin: 5px;
+    color: darkorchid;
+}
+
+.links:hover{
+    color: darkorange;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+
+}
+
+ol li{
+    list-style-type: none;
+}
+
+li{
+    
+    padding: 5px;
+}
+
+#urun-link{
+    color: chocolate;
+    text-decoration:none;
+}
